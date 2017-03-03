@@ -1,3 +1,7 @@
+/* Inspired by Zaskar @ Stackoverflow 
+ * http://stackoverflow.com/questions/27430261/storing-multiple-types-into-the-same-container
+ */
+
 #ifndef MY_MULTI_TYPE_VECTOR_H
 #define MY_MULTI_TYPE_VECTOR_H
 
