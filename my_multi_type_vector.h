@@ -20,7 +20,8 @@ class Aux
 
 template < typename T >
 class AuxTemp : public Aux
-{	private:
+{
+	 private:
 		  T* real_obj;
 	 public:
 		  AuxTemp ( const T& obj ) : real_obj ( new T ( obj ) ) { }
@@ -35,7 +36,7 @@ class MyVector
 {
 	 private:
 		  std::vector <	Aux* > v;
-		  public:
+	 public:
 		  template < typename T > void Add ( const T& value )
 			   {
 					v.push_back( new AuxTemp < T > ( value ) );
